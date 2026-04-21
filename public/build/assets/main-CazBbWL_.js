@@ -1,0 +1,1 @@
+$(function(){var a="";$(".filter").click(function(){a=$(this).attr("data-rel"),$("#gallery").fadeTo(100,.1),$("#gallery div").not("."+a).fadeOut().removeClass("animation"),setTimeout(function(){$("."+a).fadeIn().addClass("animation"),$("#gallery").fadeTo(300,1)},300)})});
