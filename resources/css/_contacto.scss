@@ -1,0 +1,69 @@
+
+#contact {
+    margin-top: 50px;
+}
+
+#contact h1{
+    padding-top: 50px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+}
+
+#contact p{
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 18px;
+    padding-right: px;
+}
+
+#contact form {
+    font-family: "Source Sans Pro";
+    padding-right: 20px;
+    padding-bottom: 50px;
+} @media (max-width:768px ) {
+    #contact form {
+        padding-right: none;
+    }
+}
+
+#map-right{
+    padding-top: 50px;
+    
+} 
+
+.googlemap {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 400%; 
+} @media (max-width:1024px ) {
+    .googlemap {
+        max-width: 270%;
+        padding-left: 20px;
+    }
+} @media (max-width:900px ) {
+    .googlemap {
+        max-width: 110%;
+        padding-left: 20px;
+    }
+} @media (max-width:768px ) {
+    .googlemap {
+        max-width: 215%;
+        padding-left: 0px;
+    }
+} @media (max-width:500px ) {
+    .googlemap {
+        max-width: 110%;
+        padding-left: 20px;
+    }
+} @media (max-width:450px ) {
+    .googlemap {
+        max-width: 130%;
+        padding-left: 24px;
+    }
+} @media (max-width:375px ) {
+    .googlemap {
+        max-width: 110%;
+        padding-left: 24px;
+    }
+}
+

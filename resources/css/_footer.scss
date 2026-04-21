@@ -1,0 +1,31 @@
+@use 'color';
+
+#footer-section {
+    font-family: "Source Sans Pro";
+}
+#footer-section h1{
+    color: white;
+    font-size: 16px;
+}
+#footer-section p{
+    color: white;
+    font-size: 12px;
+}
+
+#footer-section i{
+    color: white;
+    font-size: 12px;
+}
+
+#footer-section i:hover{
+    color: white;
+    font-size: 12px;
+}
+
+.bgfooter {
+    background: color.$redrose;
+}
+
+.copyright p:hover{
+    color:none;
+}

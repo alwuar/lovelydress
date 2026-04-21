@@ -1,0 +1,26 @@
+@use 'color';
+.btn-primary, .btn-enviar {
+    font-family:"Red Rose";
+    background: color.$redrose;
+    border: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    padding: .5em 2em;
+    &:hover{
+    background: #000;
+    border: transparent;
+    color: #fff;
+    border: transparent;
+}
+}
+
+
+.btn-whatsapp {
+    font-family:"Red Rose";
+    border: 1px solid color.$redrose;
+    border-radius: 8px;
+    padding: 10px;
+    color: color.$redrose;
+    padding: .5em 2em;
+}

@@ -1,0 +1,33 @@
+.bg-light {
+    background: transparent !important;
+}  @media (max-width: 500px) {
+    .bg-light {
+        background: #fff7f3 !important;
+    }
+}
+.bg-light.scrolled {
+    background: #fff7f3 !important;
+} 
+
+.nav-item {
+    padding-right: 25px !important;
+} @media (max-width: 500px) {
+    #nav-item {
+        padding-right: none !important;
+    }
+}
+
+.background-overlay {
+    background-image: url(public/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+    #text-left {
+        text-align: center;
+        
+    }
+}
