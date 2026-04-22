@@ -15,6 +15,14 @@
 }
 }
 
+.btn-enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; // Espacio entre "Enviando..." y el spinner
+    min-width: 180px; // Evita que el botón cambie de tamaño bruscamente
+}
+
 
 .btn-whatsapp {
     font-family:"Red Rose";

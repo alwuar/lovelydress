@@ -9,7 +9,7 @@
                 <p> En Lovely Dress, creemos que cada novia merece sentirse radiante, segura y absolutamente perfecta.<br class="d-none d-sm-none d-md-block d-lg-block">
                     Nuestra colección Bridal Curvy celebra tus curvas con diseños de alta costura que abrazan tu silueta
                     y honran tu historia de amor.</p>
-                <a href="" class="btn btn-primary">Agendar una cita</a>
+                <a href="#formulario" class="btn btn-primary">Agendar una cita</a>
             </div>
         </div>
     </header>
@@ -19,7 +19,7 @@
             <div class="contenido__texto">
                 <h2>Tu boda no es el momento de encajar</h2>
                 <p>Es el momento de que el vestido se rinda a tu belleza. No buscamos que quepas en un diseño, tenemos el diseño que te haga sentir la versión más espectacular de ti misma</p>
-                <a href="" class="btn btn-primary">Contactar a una asesora</a>
+                <a href="wa.me/+529992973768" target="blank_" class="btn btn-primary">Contactar a una asesora</a>
             </div>
             <div class="contenido__carrusel">
                 <div class="contenido__img">
@@ -47,7 +47,7 @@
             <div class="unico__valores">
                 <div class="valores__opcion">
                     <div class="video">
-                        <video src="{{ asset('video/plus-1.webm') }}" muted no-controls loop preload="metadata"
+                        <video src="{{ asset('video/plus-1.webm') }}" playsinline playsinline muted no-controls loop preload="metadata"
                             autoplay>
                         </video>
                     </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="valores__opcion">
                     <div class="video">
-                        <video src="{{ asset('video/plus-2.webm') }}" muted no-controls loop preload="metadata"
+                        <video src="{{ asset('video/plus-2.webm') }}" playsinline  muted no-controls loop preload="metadata"
                             autoplay>
                         </video>
                     </div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="valores__opcion">
                     <div class="video">
-                        <video src="{{ asset('video/plus-3.webm') }}" muted no-controls loop preload="metadata"
+                        <video src="{{ asset('video/plus-3.webm') }}" playsinline  muted no-controls loop preload="metadata"
                             autoplay>
                         </video>
                     </div>
@@ -81,11 +81,11 @@
     <section class="faqs">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-12-12 video">
-                    <video src="{{ asset('video/entrevista-estefani.webm') }}" muted controls loop preload="metadata"
+                <div class="col-lg-6 col-md-12 col-sm-12 video">
+                    <video src="{{ asset('video/entrevista-estefani.webm') }}" playsinline muted controls loop preload="metadata"
                         autoplay class="w-100">
                 </div>
-                <div class="col-lg-6 col-md-6 col-12-12 preguntas">
+                <div class="col-lg-6 col-md-12 col-sm-12 preguntas">
                     <h3 class="pl-4">Preguntas frecuentes.</h3>
                     <div class="accordion" id="accordionExample">
                         <div class="card">
