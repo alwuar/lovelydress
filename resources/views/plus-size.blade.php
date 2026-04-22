@@ -9,7 +9,7 @@
                 <p> En Lovely Dress, creemos que cada novia merece sentirse radiante, segura y absolutamente perfecta.<br class="d-none d-sm-none d-md-block d-lg-block">
                     Nuestra colección Bridal Curvy celebra tus curvas con diseños de alta costura que abrazan tu silueta
                     y honran tu historia de amor.</p>
-                <a href="#formulario" class="btn btn-primary">Agendar una cita</a>
+                <button data-toggle="modal" data-target="#ventanaModal"class="btn btn-primary">Agendar una cita</button>
             </div>
         </div>
     </header>

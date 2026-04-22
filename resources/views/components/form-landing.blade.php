@@ -1,4 +1,4 @@
-<section class="leads" id="formulario">
+<section class="leads" id="form-lead">
     <div class="container">
         <div class="contenido-form">
             <div class="titular">

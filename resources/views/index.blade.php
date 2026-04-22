@@ -1,7 +1,7 @@
 @push('estilos')
     @vite(['resources/css/app.scss', 'resources/css/index.scss', 'resources/js/app.js', 'resources/js/main.js'])
 @endpush
-<x-layouts.guest title="Vestidos de novia nuevos en mérida">
+<x-layouts.guest title="Vestidos de novia en mérida">
     <section id="cabecera" class="cabecera">
         <div class="background-overlay">
             <div class="container">
@@ -29,8 +29,7 @@
                     <img src="images/lovely-icon.svg"
                         alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
                     <h1>NOSOTROS</h1>
-                    <p>Somos la primera tienda en Mérida en ofrecer la venta de vestidos de novia nuevos talla plus
-                        size y seminuevos. Brindamos un servicio único que te permite vivir la experiencia completa
+                    <p>Somos la primera tienda en Mérida en ofrecer la venta de vestidos de novia tallas plus size. Brindamos un servicio único que te permite vivir la experiencia completa
                         para encontrar tu vestido ideal.</p>
                 </div>
             </div>
@@ -43,7 +42,7 @@
                 <div class="col-md-6 col-sm-12" id="serv-left">
                     <img src="images/serv-icon-dress.svg"
                         alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
-                    <h1>Vestidos de novia <br>Nuevos Plus size</h1>
+                    <h1>Vestidos de novia <br> Plus size</h1>
                     <p>Elige el que más te guste entre todos nuestros artículos disponibles. Nosotros nos encargamos
                         de hacer el ajuste que necesites para convertirlo en el vestido perfecto para ti.</p>
                     <button class="btn btn-primary" data-toggle="modal" data-target="#ventanaModal">MÁS
