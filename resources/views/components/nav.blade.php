@@ -22,15 +22,16 @@
         <li class="nav-item">
           <a class="nav-link" href="/showroom">Showroom</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-nav" href="https://wa.me/+529992973768" target="blank" >Contactar por whatsapp</a>
-        </li>
-        <li class="nav-item">
+         <li class="nav-item">
           <a class="nav-link" href="https://www.facebook.com/lovelydressmid" target="_blank"><i class="fab fa-facebook"></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.instagram.com/lovely_dress_mid" target="_blank"><i class="fab fa-instagram"></i></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-nav" href="https://wa.me/+529992973768" target="blank" >Contactar por whatsapp</a>
+        </li>
+       
       </ul>
     
     </div>
