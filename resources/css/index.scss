@@ -2,7 +2,7 @@
 @use 'footer';
 @use 'contacto';
 @use 'btn';
-
+@use 'form-landing';
 
 body {
     font-family:"Red Rose";
@@ -55,7 +55,6 @@ body {
 } 
 
 #content-right p {
-    text-align: justify;
     font-weight: 300;
     margin-bottom: 17px;
     font-size: 20px;

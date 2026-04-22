@@ -234,7 +234,7 @@
 
     </section>
 
-    <x-contact></x-contact>
+    <x-form-landing></x-form-landing>
 
 
 </x-layouts.guest>
