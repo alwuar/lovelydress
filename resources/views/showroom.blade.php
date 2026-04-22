@@ -1,7 +1,7 @@
 @push('estilos')
     @vite(['resources/css/app.scss', 'resources/css/index.scss', 'resources/css/showroom.scss', 'resources/js/app.js'])
 @endpush
-<x-layouts.guest>
+<x-layouts.guest title="SHOWROOM - Vestidos de Novia nuevos">
     <section id="gal-show">
         <div class="container-fluid">
             <!-- Grid row -->

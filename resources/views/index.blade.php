@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12" id="serv-right">
                     <img src="images/serv-icon-accesories.svg"
-                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                        alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
                     <h1>Velos y accesorios <br>para novia</h1>
                     <p>El ajuar nupcial es la extensión de tu personalidad. Te ayudamos a encontrar el que vaya con
                         tu vestido de novia, complexión, facciones y por supuesto, que sea el de tus sueños.</p>
@@ -76,27 +76,27 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="images/gallery-1/9.jpg" class="d-block w-100"
-                                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                        alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/gallery-1/2.jpg" class="d-block w-100"
-                                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                        alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/gallery-1/3.jpg" class="d-block w-100"
-                                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                        alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/gallery-1/4.jpg" class="d-block w-100"
-                                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                        alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/gallery-1/5.jpg" class="d-block w-100"
-                                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                        alt="Vestidos de novia plus size nuevos| Lovely Dress Bridal Boutique">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/gallery-1/6.jpg" class="d-block w-100"
-                                        alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                        alt="Vestidos de novia plus size nuevos | Lovely Dress Bridal Boutique">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
@@ -142,14 +142,14 @@
                         <div class="col-md-4 mb-4">
                             <div class="card">
                                 <img class="img-fluid" src="images/gallery-3/1.jpg"
-                                    alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    alt="Vestidos de novia plus size nuevos| Lovely Dress Bridal Boutique">
                             </div>
                         </div>
 
                         <div class="col-md-4 mb-4">
                             <div class="card">
                                 <img class="img-fluid" src="images/gallery-3/2.jpg"
-                                    alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    alt="Vestidos de novia plus size nuevos| Lovely Dress Bridal Boutique">
                             </div>
                         </div>
 
@@ -228,7 +228,7 @@
 
 
         <div class="col-12" style="text-align: center;">
-            <a href="/showroom.html" class="btn btn-primary">Ver más</a>
+            <a href="/showroom" class="btn btn-primary">Ver más</a>
         </div>
 
 
