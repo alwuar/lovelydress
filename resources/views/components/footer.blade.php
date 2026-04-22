@@ -8,7 +8,7 @@
               <div class="col-md-3 col-sm-6">
                   <h1>Nosotros</h1>
                   <hr>
-                  <p>Somos la primera tienda en Mérida en ofrecer la venta de vestidos de novia nuevos plus size.
+                  <p>Somos la primera tienda en Mérida en ofrecer la venta de vestidos de novia plus size.
                       Brindamos un servicio único que te permite vivir la experiencia completa para encontrar tu
                       vestido ideal.</p>
               </div>
