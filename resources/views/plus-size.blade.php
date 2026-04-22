@@ -80,13 +80,14 @@
     </section>
     <section class="faqs">
         <div class="container">
+            <h3 class="text-center pb-3">Preguntas frecuentes.</h3>
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 video">
+                <div class="col-lg-6 col-md-12 col-sm-12 video m-auto">
                     <video src="{{ asset('video/entrevista-estefani.webm') }}" playsinline muted controls loop preload="metadata"
                         autoplay class="w-100">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 preguntas">
-                    <h3 class="pl-4">Preguntas frecuentes.</h3>
+                    
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
@@ -112,16 +113,14 @@
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Segunda pregunta
+                                       ¿Cómo puedo estar segura de elegir la talla correcta para mi vestido?
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sed. Dolorum
-                                    quae sunt magnam vitae ullam quas consectetur, doloribus voluptate molestias
-                                    possimus nemo odit veritatis. Eius eaque id sapiente nihil?
+                                   Contamos con una Guía de Medidas detallada en cada producto que incluye busto, cintura y cadera. Si estás entre dos tallas, te recomendamos elegir la más grande, ya que es más sencillo realizar un ajuste menor con un sastre para que el vestido se adapte impecablemente a tu silueta.
                                 </div>
                             </div>
                         </div>
@@ -131,16 +130,14 @@
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Tercera pregunta
+                                        ¿Cómo debo lavar y cuidar mi vestido para que se mantenga como nuevo?
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sed. Dolorum
-                                    quae sunt magnam vitae ullam quas consectetur, doloribus voluptate molestias
-                                    possimus nemo odit veritatis. Eius eaque id sapiente nihil?
+                                   Debido a la delicadeza de nuestras telas (como satín, tul o aplicaciones de pedrería), recomendamos estrictamente el lavado en seco (tintorería). Para guardarlo, utiliza un gancho acolchado y evita la exposición directa al sol para proteger la intensidad del color. Si necesitas quitar arrugas leves, te sugerimos usar vaporizador a temperatura baja en lugar de plancha convencional.
                                 </div>
                             </div>
                         </div>
@@ -150,20 +147,34 @@
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Cuarta pregunta
+                                        ¿Es necesario agendar una cita para visitar la boutique y probarme vestidos?
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sed. Dolorum
-                                    quae sunt magnam vitae ullam quas consectetur, doloribus voluptate molestias
-                                    possimus nemo odit veritatis. Eius eaque id sapiente nihil?
+                                    En Lovely Dress nos encanta brindarte una atención personalizada y dedicada. Aunque puedes visitarnos para conocer nuestras colecciones, te recomendamos agendar una cita previa. De esta manera, una de nuestras asesoras de imagen estará lista para acompañarte, ayudarte a elegir los cortes que mejor favorezcan tu silueta y asegurar que tengas un probador disponible sin esperas.
                                 </div>
                             </div>
                         </div>
-
+<div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Si el vestido que me gusta necesita ajustes, ¿ustedes realizan el servicio de costura?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                   ¡Por supuesto! Queremos que el vestido te quede impecable. Contamos con un servicio especializado de ajustes de alta costura dentro de la boutique. Nuestras costureras expertas pueden encargarse de bastillas, ajuste de talles o tirantes para que la prenda se adapte perfectamente a tu cuerpo antes del día de tu evento.
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 

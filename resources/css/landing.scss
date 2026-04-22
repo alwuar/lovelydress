@@ -139,17 +139,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .faqs {
-    min-height: 400px;
+    min-height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
     .card {
         border: none;
         .card-header {
         background: transparent;
         border: none;
-        min-height: 65px;
+        height: 65px;
+        font-size: 12px;
         button {
             font-family: "Red rose";
             color: color.$redrose;
