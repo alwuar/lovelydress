@@ -32,3 +32,12 @@
     color: color.$redrose;
     padding: .5em 2em;
 }
+
+.btn-nav {
+    font-family:"Red Rose";
+    border: 1px solid color.$redrose;
+    border-radius: 8px;
+    color: #fff !important;
+    padding: .3em 2em;
+    background-color: color.$redrose;
+}

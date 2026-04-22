@@ -22,10 +22,10 @@
               <div class="col-md-3 col-sm-6">
                   <h1>Síguenos</h1>
                   <hr>
-                  <iframe class="googlemap"
+                 {{--  <iframe class="googlemap"
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.127007312478!2d-89.60486128529134!3d20.987545394560392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671373ffbb0f3%3A0x6f36a2ea042e188a!2sLovely%20Dress!5e0!3m2!1ses-419!2smx!4v1597845997893!5m2!1ses-419!2smx"
                       width="200" height="100" frameborder="0" style="border:0;"
-                      aria-hidden="false" tabindex="0"></iframe>
+                      aria-hidden="false" tabindex="0"></iframe> --}}
                   <p><span><a href="https://www.facebook.com/lovelydressmid" target="_blank"><i
                                   class="fab fa-facebook"></i></a></span></i>
                       <a href="https://www.instagram.com/lovely_dress_mid" target="_blank" style="padding-left: 5px;"><i
