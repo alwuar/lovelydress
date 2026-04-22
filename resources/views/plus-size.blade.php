@@ -81,11 +81,11 @@
     <section class="faqs">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-12-12">
+                <div class="col-lg-6 col-md-6 col-12-12 video">
                     <video src="{{ asset('video/entrevista-estefani.webm') }}" muted controls loop preload="metadata"
                         autoplay class="w-100">
                 </div>
-                <div class="col-lg-6 col-md-6 col-12-12">
+                <div class="col-lg-6 col-md-6 col-12-12 preguntas">
                     <h3 class="pl-4">Preguntas frecuentes.</h3>
                     <div class="accordion" id="accordionExample">
                         <div class="card">
