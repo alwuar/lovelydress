@@ -6,6 +6,457 @@
         <div class="container-fluid">
             <!-- Grid row -->
             <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/2.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal" >Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/2.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf1"></a>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/11.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/11.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf2"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/13-2.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/13-2.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf3"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/5.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/5.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf4"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/6.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/6.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf5"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/7.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/7.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf6"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/8.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/8.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf7"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/9.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/9.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf8"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Modal: Name-->
+                    <div class="modal fade" id="modalf9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+
+                            <!--Content-->
+                            <div class="modal-content">
+
+                                <!--Body-->
+                                <div class="modal-body mb-0 p-0">
+
+                                    <div>
+                                        <img src="/images/2026/webp/showroom/10.webp" class="img-fluid"
+                                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique">
+                                    </div>
+
+                                </div>
+
+                                <!--Footer-->
+                                <div class="modal-footer justify-content-center">
+                                    <span class="mr-4">¡Visita nuestras redes sociales!</span>
+                                    <a type="button" href="https://www.facebook.com/lovelydressmid" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a type="button" href="https://www.instagram.com/lovely_dress_mid/" target="_blanK"
+                                        class="btn-floating btn-sm btn-fb"><i class="fab fa-instagram"></i></a>
+
+
+                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                        data-dismiss="modal">Cerrar</button>
+
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+
+                        </div>
+                    </div>
+                    <!--Modal: Name-->
+
+                    <a><img class="img-fluid z-depth-1" src="/images/2026/webp/showroom/10.webp"
+                            alt="Vestidos de novia plus size nuevos y seminuevos | Lovely Dress Bridal Boutique"
+                            data-toggle="modal" data-target="#modalf9"></a>
+
+                </div>
+                <!-- Grid column -->
+
+
+
+
 
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-12 mb-4">
