@@ -25,9 +25,16 @@ class ContactController extends Controller
         }
 
         // 2. Validar los campos del formulario
-        $datos = $request->validate([...]);
+        $datos = $request->validate([
+            'nombre'   => 'required',
+            'apellido' => 'required',
+            'email'    => 'required|email',
+            'telefono' => 'required',
+            'ciudad'   => 'required',
+        ]);
 
-    try {
+        // 3. Enviar el correo
+        try {
         // FORZAMOS LA CONFIGURACIÓN AQUÍ MISMO PARA EVITAR ERRORES DE CACHÉ
         config([
             'mail.mailers.smtp.host' => 'mail.lovelydress.com.mx',
@@ -52,5 +59,6 @@ class ContactController extends Controller
     } catch (\Exception $e) {
         // Esto nos dirá si el problema cambió de "SSL" a "Auth" o "Timeout"
         dd("Error al enviar: " . $e->getMessage());
+    }
     }
 }
