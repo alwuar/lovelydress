@@ -25,18 +25,32 @@ class ContactController extends Controller
         }
 
         // 2. Validar los campos del formulario
-        $datos = $request->validate([
-            'nombre'   => 'required',
-            'apellido' => 'required',
-            'email'    => 'required|email',
-            'telefono' => 'required',
-            'ciudad'   => 'required',
+        $datos = $request->validate([...]);
+
+    try {
+        // FORZAMOS LA CONFIGURACIÓN AQUÍ MISMO PARA EVITAR ERRORES DE CACHÉ
+        config([
+            'mail.mailers.smtp.host' => 'mail.lovelydress.com.mx',
+            'mail.mailers.smtp.port' => 587,
+            'mail.mailers.smtp.encryption' => 'tls',
+            'mail.mailers.smtp.username' => env('MAIL_USERNAME'),
+            'mail.mailers.smtp.password' => env('MAIL_PASSWORD'),
+            'mail.mailers.smtp.stream' => [
+                'ssl' => [
+                    'allow_self_signed' => true,
+                    'verify_peer' => false,
+                    'verify_peer_name' => false,
+                ],
+            ],
         ]);
 
-        // 3. Enviar el correo
         Mail::to(['contacto@lovelydress.com.mx', 'ab@agenciavandu.com'])
-        ->send(new ContactoMailable($datos));
+            ->send(new ContactoMailable($datos));
 
-        return back()->with('success', '¡Cita agendada! Nos comunicaremos contigo pronto.');
+        return back()->with('success', '¡Cita agendada!');
+        
+    } catch (\Exception $e) {
+        // Esto nos dirá si el problema cambió de "SSL" a "Auth" o "Timeout"
+        dd("Error al enviar: " . $e->getMessage());
     }
 }
