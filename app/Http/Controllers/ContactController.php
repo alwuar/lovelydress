@@ -34,8 +34,8 @@ class ContactController extends Controller
         ]);
 
         // 3. Enviar el correo
-        // Aquí enviamos los datos a tu correo
-        Mail::to('contacto@lovelydress.com.mx', 'ab@agenciavandu.com')->send(new ContactoMailable($datos));
+        Mail::to(['contacto@lovelydress.com.mx', 'ab@agenciavandu.com'])
+        ->send(new ContactoMailable($datos));
 
         return back()->with('success', '¡Cita agendada! Nos comunicaremos contigo pronto.');
     }
