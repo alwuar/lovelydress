@@ -81,33 +81,3 @@
         </div>
     </div>
 </section>
-
-<script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
-<script>
-    // Usamos querySelectorAll para capturar todas las instancias del componente
-    document.querySelectorAll('.contactForm').forEach(form => {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Buscamos elementos SOLO dentro de este formulario específico (usando form.querySelector)
-            const btn = form.querySelector('.btnSubmit');
-            const btnText = form.querySelector('.btnText');
-            const loader = form.querySelector('.btnLoader');
-            const recaptchaInput = form.querySelector('.g-recaptcha-response');
-
-            // Bloquear botón y mostrar loader
-            btn.disabled = true;
-            if(btnText) btnText.innerText = 'Enviando...';
-            if(loader) loader.classList.remove('d-none');
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {action: 'submit'}).then(function(token) {
-                    // El token se asigna solo al input de este formulario
-                    recaptchaInput.value = token;
-                    // Se envía solo este formulario
-                    form.submit();
-                });
-            });
-        });
-    });
-</script>
