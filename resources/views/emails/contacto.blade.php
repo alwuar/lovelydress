@@ -7,15 +7,15 @@
     <style>
         body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; color: #333; }
         .container { max-width: 600px; margin: 20px auto; background: #ffffff; border: 1px solid #eee; border-radius: 8px; overflow: hidden; }
-        .header { background-color: #1a1a1a; color: #d4af37; padding: 30px; text-align: center; }
+        .header { background-color: #977D85; color: #fff; padding: 30px; text-align: center; }
         .header h1 { margin: 0; font-size: 24px; letter-spacing: 3px; text-transform: uppercase; }
         .content { padding: 40px; line-height: 1.6; }
-        .content h2 { color: #1a1a1a; font-size: 18px; border-bottom: 1px solid #d4af37; padding-bottom: 10px; margin-top: 0; }
+        .content h2 { color: #1a1a1a; font-size: 18px; border-bottom: 1px solid #977D85; padding-bottom: 10px; margin-top: 0; }
         .field-group { margin-bottom: 15px; }
-        .label { font-weight: bold; color: #d4af37; text-transform: uppercase; font-size: 12px; display: block; }
+        .label { font-weight: bold; color: #977D85; text-transform: uppercase; font-size: 12px; display: block; }
         .value { font-size: 16px; color: #444; }
         .footer { background-color: #f4f4f4; padding: 20px; text-align: center; font-size: 12px; color: #888; }
-        .accent { color: #d4af37; }
+        .accent { color: #977D85; }
     </style>
 </head>
 <body>

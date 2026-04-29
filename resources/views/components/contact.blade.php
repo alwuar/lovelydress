@@ -7,7 +7,7 @@
                         <p>Nos encantaría saber de ti, déjanos tus datos y nos comunicaremos contigo en menos de 24hrs
                             hábiles.</p>
 
-                        <form class="contact" name="contact-form" method="post" action="enviar.php">
+                        <form class="contact contact-form" name="contact-form" method="post" action="enviar.php">
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Nombre</label>
                                 <input type="name" name="nombre" class="form-control"

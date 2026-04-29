@@ -26,49 +26,52 @@
                 </div>
             @endif
 
-            <form action="{{ route('contacto.send') }}" method="POST" id="contactForm">
+            <!-- 1. CAMBIO: id="contactForm" por class="contactForm" -->
+            <form action="{{ route('contacto.send') }}" method="POST" class="contactForm">
                 @csrf
-                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+                <!-- 2. CAMBIO: id por class -->
+                <input type="hidden" name="g-recaptcha-response" class="g-recaptcha-response">
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputName">Nombre</label>
-                        <input type="text" name="nombre" class="form-control" id="inputName" required>
+                        <label>Nombre</label>
+                        <input type="text" name="nombre" class="form-control" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputApellido">Apellido</label>
-                        <input type="text" name="apellido" class="form-control" id="inputApellido" required>
+                        <label>Apellido</label>
+                        <input type="text" name="apellido" class="form-control" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" name="email" class="form-control" id="inputEmail4" required>
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputTel">Teléfono</label>
-                        <input type="tel" name="telefono" class="form-control" id="inputTel" required>
+                        <label>Teléfono</label>
+                        <input type="tel" name="telefono" class="form-control" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-12">
-                        <label for="inputCity">Ciudad</label>
-                        <input type="text" name="ciudad" class="form-control" id="inputCity" required>
+                        <label>Ciudad</label>
+                        <input type="text" name="ciudad" class="form-control" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="autorizacion" id="gridCheck" required>
-                        <label class="form-check-label" for="gridCheck" style="color: gray">
+                        <input class="form-check-input" type="checkbox" name="autorizacion" required>
+                        <label class="form-check-label" style="color: gray">
                             Autorizo a Lovely Dress contactarme vía whatsapp o llamada con fines informativos.
                         </label>
                     </div>
                 </div>
                 <div class="botones">
-                    <button type="submit" class="btn btn-enviar" id="btnSubmit">
-                        <span id="btnText">Agendar una cita</span>
-                        <span id="btnLoader" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                    <!-- 3. CAMBIO: id="btnSubmit" por class="btnSubmit" (igual con el texto y loader) -->
+                    <button type="submit" class="btn btn-enviar btnSubmit">
+                        <span class="btnText">Agendar una cita</span>
+                        <span class="spinner-border spinner-border-sm d-none btnLoader" role="status" aria-hidden="true"></span>
                     </button>
                     <a href="https://wa.me/+529992973768" target="_blank" class="btn btn-whatsapp">Contactar por whatsapp</a>
                 </div>
@@ -81,23 +84,29 @@
 
 <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
 <script>
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Elementos del botón
-        const btn = document.getElementById('btnSubmit');
-        const btnText = document.getElementById('btnText');
-        const loader = document.getElementById('btnLoader');
+    // Usamos querySelectorAll para capturar todas las instancias del componente
+    document.querySelectorAll('.contactForm').forEach(form => {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Buscamos elementos SOLO dentro de este formulario específico (usando form.querySelector)
+            const btn = form.querySelector('.btnSubmit');
+            const btnText = form.querySelector('.btnText');
+            const loader = form.querySelector('.btnLoader');
+            const recaptchaInput = form.querySelector('.g-recaptcha-response');
 
-        // Activar Loader
-        btn.disabled = true;
-        btnText.innerText = 'Enviando...';
-        loader.classList.remove('d-none');
+            // Bloquear botón y mostrar loader
+            btn.disabled = true;
+            if(btnText) btnText.innerText = 'Enviando...';
+            if(loader) loader.classList.remove('d-none');
 
-        grecaptcha.ready(function() {
-            grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {action: 'submit'}).then(function(token) {
-                document.getElementById('g-recaptcha-response').value = token;
-                document.getElementById('contactForm').submit();
+            grecaptcha.ready(function() {
+                grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {action: 'submit'}).then(function(token) {
+                    // El token se asigna solo al input de este formulario
+                    recaptchaInput.value = token;
+                    // Se envía solo este formulario
+                    form.submit();
+                });
             });
         });
     });
