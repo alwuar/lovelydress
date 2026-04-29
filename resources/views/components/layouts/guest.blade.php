@@ -2,15 +2,30 @@
 <html lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18109702667"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18109702667"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-18109702667');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18109702667');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ17M58XYJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JJ17M58XYJ');
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +73,7 @@
 
                 <div class="modal-content">
 
-                  
+
                     <div class="modal-body">
                         <x-form-landing></x-form-landing>
                     </div>
@@ -89,36 +104,38 @@
         });
     </script>
 
-    
-<script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
-<script>
-    // Usamos querySelectorAll para capturar todas las instancias del componente
-    document.querySelectorAll('.contactForm').forEach(form => {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Buscamos elementos SOLO dentro de este formulario específico (usando form.querySelector)
-            const btn = form.querySelector('.btnSubmit');
-            const btnText = form.querySelector('.btnText');
-            const loader = form.querySelector('.btnLoader');
-            const recaptchaInput = form.querySelector('.g-recaptcha-response');
 
-            // Bloquear botón y mostrar loader
-            btn.disabled = true;
-            if(btnText) btnText.innerText = 'Enviando...';
-            if(loader) loader.classList.remove('d-none');
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
+    <script>
+        // Usamos querySelectorAll para capturar todas las instancias del componente
+        document.querySelectorAll('.contactForm').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
 
-            grecaptcha.ready(function() {
-                grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {action: 'submit'}).then(function(token) {
-                    // El token se asigna solo al input de este formulario
-                    recaptchaInput.value = token;
-                    // Se envía solo este formulario
-                    form.submit();
+                // Buscamos elementos SOLO dentro de este formulario específico (usando form.querySelector)
+                const btn = form.querySelector('.btnSubmit');
+                const btnText = form.querySelector('.btnText');
+                const loader = form.querySelector('.btnLoader');
+                const recaptchaInput = form.querySelector('.g-recaptcha-response');
+
+                // Bloquear botón y mostrar loader
+                btn.disabled = true;
+                if (btnText) btnText.innerText = 'Enviando...';
+                if (loader) loader.classList.remove('d-none');
+
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {
+                        action: 'submit'
+                    }).then(function(token) {
+                        // El token se asigna solo al input de este formulario
+                        recaptchaInput.value = token;
+                        // Se envía solo este formulario
+                        form.submit();
+                    });
                 });
             });
         });
-    });
-</script>
+    </script>
 </body>
 
 </html>
