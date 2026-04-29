@@ -12,7 +12,7 @@ class ContactController extends Controller
     public function send(Request $request)
     {
         // 1. Validar el token de Google
-       /* $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+       $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
             'secret'   => env('RECAPTCHA_SECRET_KEY'),
             'response' => $request->input('g-recaptcha-response'),
             'remoteip' => $request->ip(),
@@ -20,9 +20,16 @@ class ContactController extends Controller
 
         $captchaData = $response->json();
 
-        if (!$captchaData['success'] || $captchaData['score'] < 0.5) {
+        if (!$captchaData['success'] || $captchaData['score'] < 0.3) {
             return back()->with('error', 'Fallo de seguridad (Bot detectado).');
-        } */
+        } 
+        if (!$captchaData['success']) {
+    dd("Google rechazó la petición", $captchaData);
+}
+
+if ($captchaData['score'] < 0.5) {
+    dd("Google dice que eres un bot. Tu score es: " . $captchaData['score']);
+}
 
         // 2. Validar los campos del formulario
         $datos = $request->validate([
@@ -42,13 +49,6 @@ class ContactController extends Controller
             'mail.mailers.smtp.encryption' => 'tls',
             'mail.mailers.smtp.username' => env('MAIL_USERNAME'),
             'mail.mailers.smtp.password' => env('MAIL_PASSWORD'),
-            'mail.mailers.smtp.stream' => [
-                'ssl' => [
-                    'allow_self_signed' => true,
-                    'verify_peer' => false,
-                    'verify_peer_name' => false,
-                ],
-            ],
         ]);
 
         Mail::to(['contacto@lovelydress.com.mx', 'ab@agenciavandu.com'])
