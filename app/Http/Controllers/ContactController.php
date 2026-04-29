@@ -12,7 +12,7 @@ class ContactController extends Controller
     public function send(Request $request)
     {
         // 1. Validar el token de Google
-        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+       /* $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
             'secret'   => env('RECAPTCHA_SECRET_KEY'),
             'response' => $request->input('g-recaptcha-response'),
             'remoteip' => $request->ip(),
@@ -22,7 +22,7 @@ class ContactController extends Controller
 
         if (!$captchaData['success'] || $captchaData['score'] < 0.5) {
             return back()->with('error', 'Fallo de seguridad (Bot detectado).');
-        }
+        } */
 
         // 2. Validar los campos del formulario
         $datos = $request->validate([
