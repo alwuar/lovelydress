@@ -27,9 +27,9 @@
                       width="200" height="100" frameborder="0" style="border:0;"
                       aria-hidden="false" tabindex="0"></iframe> --}}
                   <p><span><a href="https://www.facebook.com/lovelydressmid" target="_blank"><i
-                                  class="fab fa-facebook"></i></a></span></i>
+                                  class="fab fa-facebook" style="font-size: 20px"></i></a></span></i>
                       <a href="https://www.instagram.com/lovely_dress_mid" target="_blank" style="padding-left: 5px;"><i
-                              class="fab fa-instagram"></i></a></i>
+                              class="fab fa-instagram" style="font-size: 20px"></i></a></i>
                   </p>
               </div>
               

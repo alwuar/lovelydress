@@ -11,3 +11,20 @@ p {
     font-family: "Source Sans Pro";
     font-weight: 300;
 }
+
+
+body {
+    position: relative;
+    z-index: 0;
+
+        .cta-cita{
+            position: fixed;
+            z-index: 1000;
+            bottom: 40PX;
+           
+
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+    }
+}

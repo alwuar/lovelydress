@@ -63,7 +63,14 @@
     @stack('estilos')
 </head>
 
+
+
 <body>
+    <div class="cta-cita">
+        <a href="https://wa.me/+529992973768" class="btn btn-primary">
+          Contactar por whatsapp
+        </a>
+    </div>
     <main role="main" class="container">
 
         <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloVentana"
