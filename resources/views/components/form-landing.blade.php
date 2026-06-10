@@ -73,7 +73,7 @@
                         <span class="btnText">Agendar una cita</span>
                         <span class="spinner-border spinner-border-sm d-none btnLoader" role="status" aria-hidden="true"></span>
                     </button>
-                    <a href="https://wa.me/+529992973768" target="_blank" class="btn btn-whatsapp">Contactar por whatsapp</a>
+                    <a href="https://wa.me/+529992973768" id="btn-whatsapp" target="_blank" class="btn btn-whatsapp">Contactar por whatsapp</a>
                 </div>
             </form>
             
