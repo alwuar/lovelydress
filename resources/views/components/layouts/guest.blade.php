@@ -67,8 +67,8 @@
 
 <body>
     <div class="cta-cita">
-        <a href="https://wa.me/+529992973768" class="btn btn-primary">
-          Contactar por whatsapp
+        <a href="https://wa.me/+529992973768" id="btn-whatsapp" class="btn btn-primary">
+            Contactar por whatsapp
         </a>
     </div>
     <main role="main" class="container">
@@ -114,6 +114,19 @@
 
     <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            document.getElementById('btn-whatsapp').addEventListener('click', function() {
+
+                gtag('event', 'clic_whatsapp', {
+                    link_url: this.href,
+                    page_location: window.location.href
+                });
+
+            });
+
+        });
+
         // Usamos querySelectorAll para capturar todas las instancias del componente
         document.querySelectorAll('.contactForm').forEach(form => {
             form.addEventListener('submit', function(e) {
