@@ -19,7 +19,7 @@
             <div class="contenido__texto">
                 <h2>Tu boda no es el momento de encajar</h2>
                 <p>Es el momento de que el vestido se rinda a tu belleza. No buscamos que quepas en un diseño, tenemos el diseño que te haga sentir la versión más espectacular de ti misma</p>
-                <a href="https://wa.me/+529992973768"  target="blank_" class="btn btn-primary">Contactar a una asesora</a>
+                <a href="https://wa.me/+529992973768" id="btn-whatsapp"  target="blank_" class="btn btn-primary">Contactar a una asesora</a>
             </div>
             <div class="contenido__carrusel">
                 <div class="contenido__img">
