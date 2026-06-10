@@ -109,11 +109,7 @@
                 $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
             });
         });
-    </script>
 
-
-    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
-    <script>
         document.addEventListener('DOMContentLoaded', function() {
 
             document.getElementById('btn-whatsapp').addEventListener('click', function() {
@@ -126,6 +122,12 @@
             });
 
         });
+    </script>
+
+
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
+    <script>
+        
 
         // Usamos querySelectorAll para capturar todas las instancias del componente
         document.querySelectorAll('.contactForm').forEach(form => {
