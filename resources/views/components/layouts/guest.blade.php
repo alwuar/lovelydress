@@ -79,7 +79,7 @@
 <body>
 
     <!-- Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+{{-- <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" id="modalVideoDialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
     <div class="cta-cita">
