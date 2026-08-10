@@ -39,6 +39,7 @@
         href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
 
+        
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
@@ -59,6 +60,16 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
+    <style>
+         #exampleModal2 .modal-dialog {
+        display: flex;
+        align-items: center;
+        min-height: calc(100% - 3.5rem);
+        max-width: 90vw;
+        width: auto;
+        margin: 1.75rem auto;
+    }
+    </style>
 
     @stack('estilos')
 </head>
@@ -66,11 +77,34 @@
 
 
 <body>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" id="modalVideoDialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModal2Label">Video</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body p-0">
+                <video controls autoplay muted id="modalVideo" style="max-width: 100%; max-height: 80vh; display: block; margin: 0 auto;">
+                    <source src="{{ asset('video/promo-agosto.webm') }}">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <div class="cta-cita">
         <a href="https://wa.me/+529992973768" id="btn-whatsapp" class="btn btn-primary">
             Contactar por whatsapp
         </a>
     </div>
+
     <main role="main" class="container">
 
         <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloVentana"
@@ -101,8 +135,16 @@
     <x-nav></x-nav>
     {{ $slot }}
     <x-footer></x-footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap 4.5 JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     @stack ('js')
+
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             $(window).scroll(function() {
@@ -127,8 +169,6 @@
 
     <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
     <script>
-        
-
         // Usamos querySelectorAll para capturar todas las instancias del componente
         document.querySelectorAll('.contactForm').forEach(form => {
             form.addEventListener('submit', function(e) {
@@ -156,6 +196,13 @@
                     });
                 });
             });
+        });
+    </script>
+
+    <!-- Script para abrir el modal automáticamente -->
+    <script>
+        $(document).ready(function() {
+            $('#exampleModal2').modal('show');
         });
     </script>
 </body>
