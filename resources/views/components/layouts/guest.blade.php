@@ -60,8 +60,8 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <style>
-         #exampleModal2 .modal-dialog {
+ <style>
+    #exampleModal2 .modal-dialog {
         display: flex;
         align-items: center;
         min-height: calc(100% - 3.5rem);
@@ -69,7 +69,12 @@
         width: auto;
         margin: 1.75rem auto;
     }
-    </style>
+
+    #exampleModal2 .modal-content {
+        width: auto;
+        margin: 0 auto;
+    }
+</style>
 
     @stack('estilos')
 </head>
@@ -78,26 +83,21 @@
 
 <body>
 
-    <!-- Modal -->
-{{-- <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="modalVideoDialog">
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+    <div class="modal-dialog" id="modalVideoDialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModal2Label">Video</h5>
+
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body p-0">
-                <video controls autoplay muted id="modalVideo" style="max-width: 100%; max-height: 80vh; display: block; margin: 0 auto;">
-                    <source src="{{ asset('video/promo-agosto.webm') }}">
-                    Tu navegador no soporta el elemento de video.
-                </video>
+                <img src="{{ asset('images/2026/promos/promo-agosto.jpg') }}" alt="Promo agosto" style="max-width: 100%; max-height: 80vh; display: block; margin: 0 auto;">
             </div>
         </div>
     </div>
-</div> --}}
-
+</div>
 
     <div class="cta-cita">
         <a href="https://wa.me/+529992973768" id="btn-whatsapp" class="btn btn-primary">
@@ -201,9 +201,9 @@
 
     <!-- Script para abrir el modal automáticamente -->
     <script>
-        $(document).ready(function() {
-            $('#exampleModal2').modal('show');
-        });
+        $(document).ready(function () {
+        $('#exampleModal2').modal('show');
+    });
     </script>
 </body>
 
